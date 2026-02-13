@@ -1,0 +1,63 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_settings_id": [
+        "Elegoo PLA (Custom)"
+    ],
+    "from": "User",
+    "inherits": "Elegoo PLA",
+    "name": "Elegoo PLA (Custom)",
+    "default_filament_colour": [
+        "#FFFFFF"
+    ],
+    "filament_density": [
+        "1.24"
+    ],
+    "filament_shrink": [
+        "99.77%"
+    ],
+    "filament_cost": [
+        "13"
+    ],
+    "filament_flow_ratio": [
+        "0.931"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "pressure_advance": [
+        "0.024"
+    ],
+    "nozzle_temperature": [
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "220"
+    ],
+    "hot_plate_temp": [
+        "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "55"
+    ],
+    "filament_max_volumetric_speed": [
+        "12"
+    ],
+    "fan_min_speed": [
+        "100"
+    ],
+    "fan_cooling_layer_time": [
+        "100"
+    ],
+    "fan_max_speed": [
+        "100"
+    ],
+    "slow_down_layer_time": [
+        "4"
+    ],
+    "slow_down_min_speed": [
+        "10"
+    ],
+    "version": "2.3.1.20"
+}
