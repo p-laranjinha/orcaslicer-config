@@ -1,0 +1,92 @@
+{
+    "from": "User",
+    "inherits": "Elegoo Neptune 4 (0.4 nozzle)",
+    "name": "printer",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "printer_settings_id": "printer",
+    "print_host": "192.168.1.5:7125",
+    "z_hop": [
+        "0"
+    ],
+    "z_hop_types": [
+        "Auto Lift"
+    ],
+    "retraction_minimum_travel": [
+        "0.1"
+    ],
+    "machine_start_gcode": ";Nozzle diameter = [nozzle_diameter]\n;Filament type = [filament_type]\n;Filament name = [filament_vendor] \n;Filament weight = [filament_density]\nPRINT_START BED_TEMP=[hot_plate_temp_initial_layer] EXTRUDER_TEMP=[nozzle_temperature_initial_layer] AREA_START={first_layer_print_min[0]},{first_layer_print_min[1]} AREA_END={first_layer_print_max[0]},{first_layer_print_max[1]} BED_HEAT_SOAK_MINUTES=0 BED_MESH=adaptive",
+    "machine_pause_gcode": "PAUSE",
+    "machine_end_gcode": "PRINT_END",
+    "before_layer_change_gcode": "",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]",
+    "change_filament_gcode": "M600",
+    "thumbnails": "320x320/PNG",
+    "thumbnails_format": "PNG",
+    "printable_area": [
+        "0x0",
+        "235x0",
+        "235x235",
+        "0x235"
+    ],
+    "retraction_length": [
+        "0.3"
+    ],
+    "retraction_speed": [
+        "40"
+    ],
+    "deretraction_speed": [
+        "30"
+    ],
+    "machine_max_speed_x": [
+        "250"
+    ],
+    "machine_max_speed_y": [
+        "250"
+    ],
+    "machine_max_speed_z": [
+        "8"
+    ],
+    "machine_max_speed_e": [
+        "45"
+    ],
+    "machine_max_acceleration_x": [
+        "3000"
+    ],
+    "machine_max_acceleration_y": [
+        "3000"
+    ],
+    "machine_max_acceleration_z": [
+        "120"
+    ],
+    "machine_max_acceleration_e": [
+        "2000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "3000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "3000"
+    ],
+    "machine_max_acceleration_travel": [
+        "20000"
+    ],
+    "machine_max_jerk_x": [
+        "8"
+    ],
+    "machine_max_jerk_y": [
+        "8"
+    ],
+    "machine_max_jerk_z": [
+        "0.6",
+        "0.6"
+    ],
+    "machine_max_jerk_e": [
+        "7"
+    ],
+    "version": "4.3.1.20"
+}
