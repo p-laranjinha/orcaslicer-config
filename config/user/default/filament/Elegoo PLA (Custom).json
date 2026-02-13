@@ -36,10 +36,10 @@
         "0.024"
     ],
     "nozzle_temperature_initial_layer": [
-        "220"
+        "230"
     ],
     "nozzle_temperature": [
-        "215"
+        "225"
     ],
     "hot_plate_temp_initial_layer": [
         "55"
