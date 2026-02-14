@@ -48,7 +48,7 @@
         "80"
     ],
     "filament_max_volumetric_speed": [
-        "8"
+        "4"
     ],
     "fan_min_speed": [
         "20"
