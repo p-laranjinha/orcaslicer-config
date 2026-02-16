@@ -25,7 +25,7 @@
     "before_layer_change_gcode": "",
     "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]",
     "change_filament_gcode": "M600",
-    "thumbnails": "320x320/PNG",
+    "thumbnails": "160x160/PNG",
     "thumbnails_format": "PNG",
     "printable_area": [
         "0x0",
